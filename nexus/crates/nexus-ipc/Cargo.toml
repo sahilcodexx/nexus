@@ -1,0 +1,15 @@
+[package]
+name = "nexus-ipc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nexus-core = { path = "../nexus-core" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+
+[dev-dependencies]
+tempfile = "3"
