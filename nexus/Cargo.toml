@@ -1,0 +1,20 @@
+[workspace]
+members = [
+  "crates/nexus-core",
+  "crates/nexus-ui",
+  "crates/nexus-clipboard",
+  "crates/nexus-storage",
+  "crates/nexus-search",
+  "crates/nexus-emoji",
+  "crates/nexus-symbols",
+  "crates/nexus-gif",
+  "crates/nexus-ipc",
+  "crates/nexus-platform",
+  "crates/nexus-config",
+]
+
+resolver = "2"
+
+[patch.crates-io]
+xattr = { path = "patches/xattr/xattr-0.2.3-fixed" }
+gpui = { path = "patches/gpui-0.2.2-fixed" }

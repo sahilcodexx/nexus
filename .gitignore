@@ -1,0 +1,21 @@
+# Rust build artifacts
+target/
+**/target/
+**/*.rs.bk
+*.pdb
+
+# SQLite database files
+*.db
+*.db-journal
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Cache and logs
+*.log
+.cache/
+.DS_Store
+
+# Temporary files
+/tmp/
+*.tmp
