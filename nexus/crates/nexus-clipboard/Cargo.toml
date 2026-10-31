@@ -1,0 +1,15 @@
+[package]
+name = "nexus-clipboard"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+nexus-storage = { path = "../nexus-storage" }
+thiserror = "1"
+serde = { version = "1", features = ["derive"] }
+sha2 = "0.10"
+sqlite = "0.24"
+
+[dev-dependencies]
+tempfile = "3"
