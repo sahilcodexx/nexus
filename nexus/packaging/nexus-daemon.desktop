@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Nexus Clipboard Daemon
+Comment=Monitors and saves clipboard history and screenshots
+Exec=nexus-ui --daemon
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true

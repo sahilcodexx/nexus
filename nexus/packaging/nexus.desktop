@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Nexus Clipboard
+GenericName=Clipboard Manager
+Comment=Windows 11 Fluent Clipboard History & Flyout Hub
+Exec=nexus-ui
+Icon=edit-paste
+Terminal=false
+Type=Application
+Categories=Utility;System;
+Keywords=clipboard;history;paste;copy;screenshot;
+StartupNotify=false
+X-GNOME-UsesNotifications=true

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Nexus Emoji & Symbols
+GenericName=Emoji & Symbol Picker
+Comment=Windows 11 Fluent Emoji, Kaomoji, Symbol & GIF Picker
+Exec=nexus-ui --emoji
+Icon=face-smile
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=emoji;symbols;emoticon;kaomoji;gif;picker;
+StartupNotify=false
